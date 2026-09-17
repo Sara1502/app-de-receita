@@ -1,0 +1,43 @@
+html {
+    font-family: 'Pixelify Sans';
+}
+
+.navbar{
+   background-image: url(../img/btn.png);
+}
+
+.card {
+    background-image: url(../img/card.png);
+    background-size: 100% 100%;
+    width: 240px;
+    aspect-ratio: 714 / 664;
+}
+
+.card-title {
+    background-color: magenta;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+
+.card-footer {
+    background-color: green;
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+
+.card-tags {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+}
+
+li {
+    padding-left: 6px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
