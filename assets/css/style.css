@@ -2,10 +2,6 @@ html {
     font-family: 'Pixelify Sans';
 }
 
-.navbar{
-   background-image: url(../img/btn.png);
-}
-
 .card {
     background-image: url(../img/card.png);
     background-size: 100% 100%;
