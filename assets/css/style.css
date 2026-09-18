@@ -46,7 +46,7 @@ main{
     margin: 0;
 }
 
-li {
+.card-tags li {
     padding-left: 6px;
 }
 
