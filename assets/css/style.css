@@ -2,6 +2,12 @@ html {
     font-family: 'Pixelify Sans';
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .card {
     background-image: url(../img/card.png);
     background-size: 100% 100%;
@@ -9,31 +15,53 @@ html {
     aspect-ratio: 714 / 664;
 }
 
-.card-title {
-    background-color: magenta;
-    margin-bottom: 3px;
-    margin-left: 3px;
+.fav-badge {
+    text-align: right;
+    padding: 10px 10px 0 0;
 }
 
-.card-footer {
-    background-color: green;
-    margin-bottom: 3px;
-    margin-right: 3px;
+.fav-badge img {
+    width: 19px;
+    height: 18px;
 }
+
+.card-top{
+    height: 70%;
+}
+
+.card-bottom {
+    height: 37%;
+}
+
+.card-title {
+    margin-left: 10px;
+    font-size: 20px;
+} 
 
 .card-tags {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-items: space-between;
+    margin: 0;
 }
 
 li {
     padding-left: 6px;
 }
 
-main{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+
+.del img{
+    width: 15px;
+    height: 19px;
+}
+
+.vegetarian{
+    width: 30px;
+    height: 20px;
+}
+
+.time img {
+    width: 20px;
+    height: 22px;
 }
