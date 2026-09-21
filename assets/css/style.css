@@ -42,7 +42,6 @@ main{
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-items: space-between;
     margin: 0;
 }
 
@@ -50,8 +49,12 @@ main{
     padding-left: 6px;
 }
 
+.tag-section {
+    display: flex;
+    justify-content: space-between;
+}
 
-.del img{
+.del{
     width: 15px;
     height: 19px;
 }
